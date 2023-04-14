@@ -4,7 +4,7 @@ const bodyParser = require("body-parser")
 router.use(bodyParser.json())
 
 // testing routes
-router.get('/api/test', (req, res, next) => {
+router.get('/', (req, res, next) => {
 	res.json({
 		status: 2
 	})
